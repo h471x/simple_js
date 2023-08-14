@@ -124,3 +124,24 @@ h2{
 h3{
     font-size: 22px;
 }
+
+/* Updates for Responsive Design */
+@media screen and (max-width: 768px) {
+    .card_container {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    input, button {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    label, h3 {
+        font-size: 18px;
+    }
+}
